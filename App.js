@@ -49,5 +49,35 @@ const mostrarItem = ({item}) => {
 }
 
 const styles = StyleSheet.create({
-  
+  container: {
+    marginTop: StatusBar.currentHeight || 0,
+    flex: 1,
+    backgroundColor: '#000'
+  },
+  h1:{
+    fontSize:30,
+    fontWeight:'bold',
+    textAlign:'center',
+    color:"white"
+  },
+  title: {
+    fontSize: 32,
+    textTransform:'uppercase',
+    color:'white'
+  },
+  text: {
+    color:'white'
+  },
+  flatlist:{
+    marginHorizontal:20
+  },
+  item: {
+    display:'flex',
+    flexDirection:'row',
+    marginVertical:4,
+  },
+  img: {
+    width:125,
+    height:125,
+  },
 });
